@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetCoreWebApp(MVC)", "do
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetCoreWebAppEmpty", "dotNetCoreWebAppEmpty\dotNetCoreWebAppEmpty.csproj", "{6757A329-F85A-4E50-8E43-92134A20035B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetCoreWebApplication", "dotNetCoreWebApplication\dotNetCoreWebApplication.csproj", "{98B3F9B5-4F18-43B9-92EC-AC697432E570}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6757A329-F85A-4E50-8E43-92134A20035B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6757A329-F85A-4E50-8E43-92134A20035B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6757A329-F85A-4E50-8E43-92134A20035B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98B3F9B5-4F18-43B9-92EC-AC697432E570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B3F9B5-4F18-43B9-92EC-AC697432E570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B3F9B5-4F18-43B9-92EC-AC697432E570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B3F9B5-4F18-43B9-92EC-AC697432E570}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
