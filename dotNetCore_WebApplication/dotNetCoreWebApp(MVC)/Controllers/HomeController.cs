@@ -17,10 +17,17 @@ namespace dotNetCoreWebApp_MVC_.Controllers
         {
             _logger = logger;
         }
-
-        public IActionResult Index()
+        public IActionResult RazorPage()
         {
             return View();
+        }
+        public IActionResult Index()
+        {
+            return View("RazorPage");
+            //return View("../../TempView/RazorViewEmpty");
+            //return View("TempView/RazorViewEmpty.cshtml");
+           // return View("../../TempView/RazorPageEmpty");
+            //return View("TempView/RazorPageEmpty.cshtml");
         }
 
         public IActionResult Privacy()
